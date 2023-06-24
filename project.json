@@ -1,0 +1,14 @@
+{
+    "name": "dotfiles",
+    "description": "Here are my dotfiles. I use them to configure my linux environment.",
+    "version": "",
+    "main_file": "none",
+    "author": "Lewis Evans",
+    "license": "GNU General Public License v3.0",
+    "url": "https://www.github.com/awesomelewis2007/dotfiles",
+    "email": "none",
+    "languages": [
+        "ruby"
+    ],
+    "actions": {}
+}
