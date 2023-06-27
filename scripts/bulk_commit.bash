@@ -1,7 +1,7 @@
 #! /bin/bash
 # Bulk commit
 # Commit multiple git repositories at once with the same commit message
-# Github: https://www.github.com/awesomelewis2007/dotfiles
+# Github: https://www.github.com/lewisevans2007/dotfiles
 # By: Lewis Evans
 
 # Colours 

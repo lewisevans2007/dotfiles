@@ -1,7 +1,7 @@
 #! /usr/bin/env ruby
 # Generate project
 # Generate a project with a template
-# Github: https://www.github.com/awesomelewis2007/dotfiles
+# Github: https://www.github.com/lewisevans2007/dotfiles
 # By: Lewis Evans
 
 RED="\033[0;31m"

@@ -1,7 +1,7 @@
 #! /bin/bash
 # Quick setup
 # Quickly setup a linux system with my favourite packages
-# Github: https://www.github.com/awesomelewis2007/dotfiles
+# Github: https://www.github.com/lewisevans2007/dotfiles
 # By: Lewis Evans
 
 read -p "Do you want to continue? (y/n): " continue
