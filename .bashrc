@@ -82,6 +82,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
+
 fi
 
 # colored GCC warnings and errors
@@ -91,6 +92,10 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias c='clear'
+alias cls='clear'
+alias n='nvim'
+
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -115,3 +120,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# ~/.scripts to PATH
+export PATH="$PATH:$HOME/.scripts"
