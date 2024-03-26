@@ -1,4 +1,4 @@
-#! /usr/bin/env ruby
+#!/usr/bin/ruby
 # Generate project
 # Generate a project with a template
 # Github: https://www.github.com/lewisevans2007/dotfiles

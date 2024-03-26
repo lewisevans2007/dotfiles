@@ -1,0 +1,25 @@
+#!/bin/bash
+# Info
+# A script to display system information
+# Github: https://www.github.com/lewisevans2007/dotfiles
+# By: Lewis Evans
+
+
+neofetch
+
+df -h | grep "/dev/sda1" | awk '{print "Disk usage: " $5}'
+
+echo ""
+
+# Battery only for macos
+if [ "$(uname)" == "Darwin" ]; then
+    echo "------------------------------------------------------------"
+    echo "Battery status"
+    pmset -g batt | grep -E "([0-9]+\%).*" -o --color=never | awk '{print "Battery: " $1}'
+    pmset -g batt | grep -E "([0-9]+\%).*" -o --color=never | awk '{print "Time remaining: " $3}'
+    echo "------------------------------------------------------------"
+    echo ""
+fi
+
+top -l 1 | grep "CPU usage"
+top -l 1 | grep PhysMem

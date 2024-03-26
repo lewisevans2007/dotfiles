@@ -4,11 +4,15 @@
 # Github: https://www.github.com/lewisevans2007/dotfiles
 # By: Lewis Evans
 
+
+echo "Enter a file extension e.g: .txt, .sh, .py"
 read -p "File extension: " file_extension
+
+TOTAL_FILES=$(find . -type f -name "*.$file_extension" | wc -l)
 
 find . -type f -name "*.$file_extension" -print0 | while IFS= read -r -d '' file; do
     echo "Converting line endings of $file to Unix format..."
     dos2unix "$file"
 done
 
-echo "Line endings converted successfully."
+echo "Converted $TOTAL_FILES files to Unix format"
