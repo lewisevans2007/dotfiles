@@ -1,8 +1,8 @@
 #!/usr/bin/ruby
 # Generate project
 # Generate a project with a template
-# Github: https://www.github.com/lewisevans2007/dotfiles
-# By: Lewis Evans
+# Github: https://www.github.com/0x4248/dotfiles
+# By: 0x4248
 
 RED="\033[0;31m"
 GREEN="\033[0;32m"

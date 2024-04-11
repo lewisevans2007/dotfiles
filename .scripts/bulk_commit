@@ -1,8 +1,8 @@
 #!/bin/bash
 # Bulk commit
 # Commit multiple git repositories at once with the same commit message
-# Github: https://www.github.com/lewisevans2007/dotfiles
-# By: Lewis Evans
+# Github: https://www.github.com/0x4248/dotfiles
+# By: 0x4248
 
 # Colours 
 RED='\033[0;31m'

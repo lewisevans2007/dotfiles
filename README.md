@@ -8,4 +8,4 @@ Move the dotfiles to your home directory and and you can run make to install the
 
 ## Nvim
 
-For lazy.vim config please see [lewvim](https://github.com/lewisevans2007/lewvim)
+For lazy.vim config please see [lewvim](https://github.com/0x4248/lewvim)

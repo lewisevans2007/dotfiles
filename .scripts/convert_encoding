@@ -1,8 +1,8 @@
 #!/bin/bash
 # Convert encoding
 # Convert line endings of all files in the current directory to Unix format
-# Github: https://www.github.com/lewisevans2007/dotfiles
-# By: Lewis Evans
+# Github: https://www.github.com/0x4248/dotfiles
+# By: 0x4248
 
 
 echo "Enter a file extension e.g: .txt, .sh, .py"

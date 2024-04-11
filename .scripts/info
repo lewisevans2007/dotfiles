@@ -1,8 +1,8 @@
 #!/bin/bash
 # Info
 # A script to display system information
-# Github: https://www.github.com/lewisevans2007/dotfiles
-# By: Lewis Evans
+# Github: https://www.github.com/0x4248/dotfiles
+# By: 0x4248
 
 
 neofetch
